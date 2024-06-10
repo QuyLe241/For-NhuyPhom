@@ -20,6 +20,9 @@
     justify-content: center;
     align-items: center;
     animation: anicontainer 1.8s ease infinite;
+    /* padding: 50px 0; */
+    /* margin: 50px 0; */
+    margin-bottom: 50px;
 }
 
 .container_heart h1 {
