@@ -1,0 +1,53 @@
+.container_heart {
+    /* position: relative; */
+    position: absolute;
+    display: flex;
+    /* padding: 50px; */
+    /* margin-top: 30vh; */
+    /* margin-left: 30vh; */
+    /* text-align: center; */
+    margin-left: 32%;
+}
+
+.contai_center {
+    /* width: 100%; */
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    animation: anicontainer 3s ease infinite;
+}
+
+.container_heart h1 {
+    color: purple;
+    /* margin: 30px; */
+    /* position: absolute; */
+    margin-left: 30%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+.container_heart h1 span {
+    /* padding: 50px;
+    margin: 50px; */
+    padding: 0 30px;
+}
+
+/* Key fram */
+@keyframes anicontainer {
+    0% {
+        transform: scale(1);
+      }
+      30% {
+        transform: scale(0.8);
+      }
+      /* 60% {
+              transform: scale(1.2);
+          } */
+      100% {
+        transform: scale(1);
+      }
+
+}
