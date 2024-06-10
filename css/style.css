@@ -22,8 +22,8 @@
     animation: anicontainer 1.8s ease infinite;
     /* padding: 50px 0; */
     /* margin: 50px 0; */
-    margin-bottom: 60px;
-    padding-bottom: 100px;
+    /* margin-bottom: 60px; */
+    /* padding-bottom: 100px;   */
 }
 
 .container_heart h1 {
@@ -31,6 +31,7 @@
     /* margin: 30px; */
     /* position: absolute; */
     /* margin-left: 30%; */
+    display: inline-block;
     display: flex;
     text-align: center;
     align-items: center;
