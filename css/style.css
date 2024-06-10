@@ -6,15 +6,15 @@
     /* margin-top: 30vh; */
     /* margin-left: 30vh; */
     /* text-align: center; */
-    margin-left: 32%;
+    /* margin-left: 32%; */
 }
 
 .contai_center {
-    /* width: 100%; */
+    /* width: 100vw; */
     height: 100vh;
     display: flex;
-    text-align: center;
-    align-items: center;
+    /* text-align: center; */
+    /* align-items: center; */
     animation: anicontainer 1.8s ease infinite;
 }
 
@@ -22,7 +22,7 @@
     color: purple;
     /* margin: 30px; */
     /* position: absolute; */
-    margin-left: 30%;
+    /* margin-left: 30%; */
     display: flex;
     text-align: center;
     align-items: center;
@@ -42,6 +42,9 @@
       }
       30% {
         transform: scale(0.8);
+      }
+      50% {
+        transform: scale(0.6);
       }
       /* 60% {
               transform: scale(1.2);
